@@ -8,7 +8,9 @@ const useConcursos = () => {
   useEffect(() => {
     const fetchConcursos = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/concursos");
+        const response = await axios.get(
+          "http://localhost:8080/api/concursos/rj"
+        );
         setConcursos(response.data);
       } catch (error) {
         console.error("Erro ao buscar concursos:", error);
