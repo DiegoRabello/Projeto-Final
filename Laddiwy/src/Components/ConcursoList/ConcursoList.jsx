@@ -46,7 +46,6 @@ const ConcursoList = () => {
               className={styles.concursoLink}
             >
               <h3 className={styles.concursoName}>{concurso.name}</h3>
-              {/* Adicione mais informações do concurso aqui se disponível */}
             </a>
           </div>
         ))}
