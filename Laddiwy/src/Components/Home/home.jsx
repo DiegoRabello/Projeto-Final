@@ -1,5 +1,6 @@
 import styles from "./home.module.css";
 import studying from "../../img/8602650.png";
+import ConcursoList from "../ConcursoList/ConcursoList";
 export function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export function Home() {
           <img src={studying} alt="Estudante se preparando para concurso" />
         </div>
       </div>
+      <ConcursoList />
     </>
   );
 }
